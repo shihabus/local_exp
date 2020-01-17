@@ -1,10 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "react-notifications/src/notifications.scss";
+import "./index.css";
+// import App from "./Map";
+import App from "./components/interscetionObserver";
+// import App from "./Deck";
+// import App from './select-box/index';
+// import App from "../src/Inputs";
+// import App from "../src/Map";
+// import App from "../src/App";
+import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
